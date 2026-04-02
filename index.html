@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shinchan Homepage</title>
+</head>
+<body>
+
+    <header>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td width="80%">
+                    <img src="assets/shin-chan-banner.jpg" alt="Shinchan Banner" width="100%">
+                </td>
+                <td width="20%" align="center">
+                    <img src="assets/naughtiest-son.jpg" alt="The Naughtiest Boy in Town" width="180">
+                </td>
+            </tr>
+        </table>
+
+        <nav align="center">
+            <br>
+            <a href="#video">Shinchan: Shiro and the Coal Town Game</a>
+            &nbsp;&nbsp; <a href="#characters">Characters</a>
+            &nbsp;&nbsp;
+            <a href="#favorite">Who's your favorite?</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="video">
+            <article>
+                <h2>Shinchan: Shiro and the Coal Town</h2>
+                <p><strong>(Available on: Nintendo Switch and Windows PC)</strong></p>
+                <video controls width="800" poster="assets/shinchan-coal-town-poster.jpg">
+                    <source src="assets/shinchan-and-the-coal-town.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+        </section>
+
+        <br>
+
+        <section id="characters">
+            <h2>The Characters</h2>
+            <table border="1" width="100%" cellpadding="10" style="border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th colspan="3">Meet the Nohara Family & Friends</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr align="center">
+                        <td width="33%">
+                            <img src="assets/character-shinchan.png" alt="Shinchan" height="150"><br>
+                            <h3>Shinnosuke Nohara</h3>
+                            <p>The mischievous 5-year-old protagonist...</p>
+                        </td>
+                        <td width="33%">
+                            <img src="assets/character-misae.webp" alt="Misae" height="150"><br>
+                            <h3>Misae Nohara (Mom)</h3>
+                            <p>Shinchan's short-tempered but loving mother...</p>
+                        </td>
+                        <td width="33%">
+                            <img src="assets/character-hiroshi.webp" alt="Hiroshi" height="150"><br>
+                            <h3>Hiroshi Nohara (Dad)</h3>
+                            <p>The laid-back father who works at a company...</p>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <img src="assets/character-himawari.png" alt="Himawari" height="150"><br>
+                            <h3>Himawari (Sister)</h3>
+                            <p>Loves shiny objects and brand-name goods.</p>
+                        </td>
+                        <td>
+                            <img src="assets/character-shiro.png" alt="Shiro" height="150"><br>
+                            <h3>Yukino Nohara (Shiro)</h3>
+                            <p>The family dog—small, fluffy, and sensible.</p>
+                        </td>
+                        <td>
+                            <img src="assets/character-toru-kazama.webp" alt="Toru Kazama" height="150"><br>
+                            <h3>Toru Kazama</h3>
+                            <p>The smart and responsible friend of Shinchan.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+
+        <section id="favorite">
+            <h2>Who's your favorite?</h2>
+            <img src="assets/shinchan.gif" alt="Dancing Shinchan" width="80">
+            
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Who's your favorite character?</legend>
+                    <input type="radio" id="fav_shin" name="fav_char" value="Shinchan">
+                    <label for="fav_shin">Shinchan</label>
+                    &nbsp;&nbsp;
+                    <input type="radio" id="fav_shiro" name="fav_char" value="Shiro">
+                    <label for="fav_shiro">Shiro</label>
+                    <br><br>
+                    <label for="other">Character not in the list? Write their name below:</label><br>
+                    <input type="text" id="other" placeholder="Enter character name">
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Tell us a bit more about yourself</legend>
+                    <label for="user_name">Your Name:</label>
+                    <input type="text" id="user_name" required placeholder="Enter your name"><br><br>
+
+                    <label>Your Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    &nbsp;
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br><br>
+
+                    <label for="dob">Your Date of Birth:</label>
+                    <input type="date" id="dob"><br><br>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </fieldset>
+
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy;2025 Programming4</p>
+        <p>Get in touch with us: <a href="mailto:shinchan-lovers@justlearninghtml.com">shinchan-lovers@justlearninghtml.com</a></p>
+    </footer>
+
+</body>
+</html>
